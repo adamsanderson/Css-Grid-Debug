@@ -5,7 +5,7 @@
   drawn every `minor` pixels if a `minor` grid is set.
 
 */
--function drawDebugGrid(major,minor){
+function drawDebugGrid(major,minor){
   // add canvas
   var canvas = document.createElement("canvas");
   canvas.width = 1;
@@ -33,5 +33,5 @@
 
   // add background image
   var dataUrl = canvas.toDataURL("image/png");
-  document.body.style.cssText += 'background-image: url('+dataUrl+')';
+  document.body.style.cssText += 'background: url('+dataUrl+') repeat';
 };
