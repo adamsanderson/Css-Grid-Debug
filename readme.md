@@ -1,8 +1,7 @@
 Grid Debug
 ==========
 
-This is a simple script that will draw a grid so you can form
-a nice typographical rythm.
+Apply a typographical grid lines to the background of any page.
 
 You may either include grid_debug.js on your page, or use it as a bookmarklet.
 
